@@ -1,16 +1,16 @@
-#SecureInfraTool
+# SecureInfraTool
 Overvåger systemressourcer og sikkerhedshændelser.
 
-##Features:
+## Features:
 CPU, RAM og disk monitoring
 Failed login detection (Event ID 4625)
 Netværk overvågning
 Logging og alerts
 
-#ZeroTrustTool
+# ZeroTrustTool
 Implementerer Zero Trust med risk scoring og MFA.
 
-##Features:
+## Features:
 Risk-based authentication
 Context-aware security
 Adaptive access (Allow / MFA / Deny)
