@@ -1,4 +1,7 @@
-Jeg er datatekniker-elev med fokus på cybersikkerhed og infrastruktur.
+IT Portfolio – Cybersikkerhed & Infrastruktur
+
+Om mig:
+Jeg er datatekniker-studerende med fokus på cybersikkerhed og infrastruktur.
 
 Denne portfolio viser praktiske projekter indenfor:
 
