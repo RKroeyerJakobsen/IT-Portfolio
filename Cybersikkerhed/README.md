@@ -1,40 +1,65 @@
-# SecureInfraTool
+#  Cybersikkerhed Projekter
+
+## Beskrivelse
+
+Denne mappe indeholder projekter med fokus på cybersikkerhed, detection og Zero Trust.
+
+---
+
+## SecureInfraTool
+
 Overvåger systemressourcer og sikkerhedshændelser.
 
-## Features:
-CPU, RAM og disk monitoring
-Failed login detection (Event ID 4625)
-Netværk overvågning
-Logging og alerts
+**Features:**
 
-# ZeroTrustTool
-Implementerer Zero Trust med risk scoring og MFA.
+* CPU, RAM og disk monitoring
+* Failed login detection (Event ID 4625)
+* Netværk overvågning
+* Logging og alerts
 
-## Features:
-Risk-based authentication
-Context-aware security
-Adaptive access (Allow / MFA / Deny)
+---
 
-# AD Attack Detection Toolkit
+## ZeroTrustTool
+
+Implementerer en Zero Trust model.
+
+**Features:**
+
+* Risk-based authentication
+* Context-aware security (tid & weekend)
+* Adaptive access (Allow / MFA / Deny)
+
+---
+
+## AD Attack Detection Toolkit
+
 Simulerer og detekterer angreb i Active Directory.
 
-## Features:
-Password spraying simulation
-Failed login detection
-Admin overvågning
+**Features:**
 
-# Automatisk Backup
-Automatiserer backup og logging.
+* Password spraying
+* Failed login detection
+* Admin privilege overvågning
 
-## Features:
-Backup scripts
-Logging
-Planlagt kørsel
+---
 
-# Server & Klient Overvågning
-Overvåger endpoints og netværk.
+## Automatisk Backup
 
-## Features:
-System health monitoring
-Netværk status
-Central logging
+Automatiserer backup og sikrer data.
+
+---
+
+## Server & Klient Overvågning
+
+Overvåger endpoints og systemer i netværket.
+
+---
+
+## Formål
+
+At demonstrere praktiske færdigheder indenfor:
+
+* Detection & monitoring
+* Active Directory security
+* Zero Trust arkitektur
+
