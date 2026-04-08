@@ -5,31 +5,46 @@
 Denne mappe indeholder projekter med fokus på drift, automatisering og systemadministration.
 ## Security Architecture
 
+## 🖥️ Infrastructure Architecture
+
 ```
         +----------------------+
-        |   User / System      |
+        |   Admin / Scripts    |
         +----------+-----------+
                    |
                    v
         +----------------------+
-        |   ZeroTrustTool      |
-        | (Access Control)     |
+        |   IaC Deployment     |
         +----------+-----------+
                    |
-         +---------+---------+
-         |                   |
-         v                   v
-+----------------+   +----------------------+
-| SecureInfraTool|   | AD Detection Toolkit |
-| Monitoring     |   | Attack Detection     |
-+--------+-------+   +----------+-----------+
-         |                      |
-         +----------+-----------+
-                    |
-                    v
-            +---------------+
-            | Logs / Alerts |
-            +---------------+
+   +---------------+----------------+
+   |                                |
+   v                                v
++--------+                  +----------------+
+| Server |                  | Active Directory|
++--------+                  +----------------+
+   |                                |
+   |                                v
+   |                        +----------------+
+   |                        | User Mgmt      |
+   |                        +----------------+
+   |
+   v
++--------------------+
+| Patch Management   |
++--------------------+
+   |
+   v
++--------------------+
+| Monitoring / SIEM  |
++--------------------+
+   |
+   v
++--------------------+
+| Software Deployment|
++--------------------+
+```
+
 
 ---
 
