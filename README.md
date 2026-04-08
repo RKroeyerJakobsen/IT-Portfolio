@@ -142,4 +142,6 @@ At demonstrere praktiske færdigheder indenfor IT-drift og cybersikkerhed.
 
 # Kontakt
 
-GitHub: RKroeyerJakobsen mail:rasmus.jakobsen14@gmail.com tlf: +45 20 30 07 35
+GitHub: RKroeyerJakobsen 
+mail: rasmus.jakobsen14@gmail.com 
+tlf: +45 20 30 07 35
