@@ -3,6 +3,34 @@
 ## Beskrivelse
 
 Denne mappe indeholder projekter med fokus på cybersikkerhed, detection og Zero Trust.
+## 🔐 Security Architecture
+
+```
+        +----------------------+
+        |   User / System      |
+        +----------+-----------+
+                   |
+                   v
+        +----------------------+
+        |   ZeroTrustTool      |
+        | (Access Control)     |
+        +----------+-----------+
+                   |
+         +---------+---------+
+         |                   |
+         v                   v
++----------------+   +----------------------+
+| SecureInfraTool|   | AD Detection Toolkit |
+| Monitoring     |   | Attack Detection     |
++--------+-------+   +----------+-----------+
+         |                      |
+         +----------+-----------+
+                    |
+                    v
+            +---------------+
+            | Logs / Alerts |
+            +---------------+
+
 
 ---
 
