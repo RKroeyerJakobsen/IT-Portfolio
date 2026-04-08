@@ -15,9 +15,36 @@ Jeg er datatekniker-studerende med fokus på cybersikkerhed og infrastruktur.
 
 
 Denne portfolio viser praktiske projekter indenfor:
+## 🏗️ Architecture Overview
 
+```
+                        +----------------------+
+                        |    IT-Portfolio      |
+                        +----------+-----------+
+                                   |
+          +------------------------+------------------------+
+          |                                                 |
++---------v----------+                           +----------v-----------+
+|   Cybersikkerhed   |                           |    Infrastruktur     |
++---------+----------+                           +----------+-----------+
+          |                                                 |
+  +-------+-------+                           +-------------+-------------+
+  |               |                           |                           |
++--v--+     +-----v------+             +------v------+           +--------v--------+
+|SIEM |     |Zero Trust  |             |   IaC       |           | IT Management   |
++-----+     +------------+             +-------------+           +-----------------+
+   |               |                         |                           |
+   |        +------v------+           +------v------+           +--------v--------+
+   |        | SecureInfra |           | Patch Mgmt  |           | Software Deploy |
+   |        +-------------+           +-------------+           +-----------------+
+   |               |
+   |        +------v------+
+   |        | AD Detection|
+   |        +-------------+
+   |
+   +--> Logs / Events / Monitoring
+```
 
----
 
 # Cybersikkerhed
 
