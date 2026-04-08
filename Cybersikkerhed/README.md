@@ -15,26 +15,26 @@ Risk-based authentication
 Context-aware security
 Adaptive access (Allow / MFA / Deny)
 
-#AD Attack Detection Toolkit
+# AD Attack Detection Toolkit
 Simulerer og detekterer angreb i Active Directory.
 
-##Features:
+## Features:
 Password spraying simulation
 Failed login detection
 Admin overvågning
 
-#Automatisk Backup
+# Automatisk Backup
 Automatiserer backup og logging.
 
-##Features:
+## Features:
 Backup scripts
 Logging
 Planlagt kørsel
 
-#Server & Klient Overvågning
+# Server & Klient Overvågning
 Overvåger endpoints og netværk.
 
-##Features:
+## Features:
 System health monitoring
 Netværk status
 Central logging
